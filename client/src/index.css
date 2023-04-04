@@ -1,0 +1,779 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  background-image: url('./assets/wallpaper.jpg');
+  height: 100%
+}
+
+html {
+  height: 100%
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.small {
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*header*/
+
+.main-header-parent {
+  width: 100%;
+  height: 20vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.upper-header {
+  background-color: rgb(4, 4, 4);
+  height: 7vh;
+  min-height: fit-content;
+  width: 90%;
+  text-align: right;
+}
+
+.login-btn {
+  padding-right: 1.5%;
+  border-color: transparent;
+  background-color: transparent;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(254, 254, 254);
+  opacity: 1;
+  transition: ease-in-out .75s;
+}
+
+.login-btn:hover {
+  transform: scale(1.75);
+  color:rgb(247, 173, 0);
+}
+
+.central-header {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  background-color: rgba(254, 254, 254, 0.814);
+}
+
+.site-title {
+  color: transparent;
+  background-image: url('./assets/tigerprint.jpg');
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.title-span {
+  color:rgb(1, 1, 1);
+  text-shadow: 2px 2px 4px rgb(138, 0, 0);
+}
+
+.lower-header {
+  width: 90%;
+  height: 50%;
+  background-color: rgb(4, 4, 4);
+  opacity: .65;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-btn {
+  border-radius: 45%;
+  width: 5vh;
+  min-width: fit-content;
+  border-color: transparent;
+  background-color: white;
+  
+  transition: ease-in-out 3s;
+}
+
+.header-btn:hover {
+  border-radius: 45%;
+  width: 5%;
+  border-color: transparent;
+  background-color: rgb(250, 134, 1);
+  box-shadow: 7px 7px 10px 5px rgb(81, 81, 81);
+  transform: scale(2);
+  
+}
+
+.link-remove {
+  text-decoration: none;
+  color: black;
+}
+
+.link-remove:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* Main */
+.main-parent {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.main-article-parent {
+  height: 100%;
+  width: 90%;
+  background-color: rgba(254, 254, 254, 0.814);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article-title {
+  border-bottom: 1px solid;
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+
+.main-article {
+  width: 50%;
+  height: 50vh;
+  background-color: whitesmoke;
+  border-style: solid;
+  border-color: rgb(232, 140, 20);
+  box-shadow: 0px 0px 20px 5px rgb(32, 32, 32);
+  padding: 3%;
+  text-indent: 2%;
+}
+
+/* Pets Menu */
+
+.pet-names-header {
+  height:3%;
+  width:100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.pet-names {
+  height: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-bottom: 3%;
+  color: black;
+  height: 100%;
+
+}
+
+.project-parent {
+  width: 40vh;
+  height: 20vh ;
+  margin: 0 auto;
+  overflow: hidden;
+  border-color: rgb(250, 162, 0);
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0px 0px 20px 5px rgb(196, 196, 196);
+  margin-bottom: 10%;
+}
+
+.project-parent:hover {
+  box-shadow: 0px 0px 80px 5px rgb(196, 196, 196);
+}
+
+.project-overlay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(250, 162, 0);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-links-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:  5%;
+  padding-bottom: 1%;
+  
+}
+
+.description-format {
+  flex-direction: column;
+  justify-content: left;
+  padding:  5%;
+  padding-top: 0%;
+}
+
+.project-link {
+  padding-top: 5%;
+  font-size: large;
+  color: rgb(175, 1, 1);
+}
+
+.project-overlay:hover .project-description {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgb(48, 48, 48);
+  opacity: .8;
+}
+
+
+.pets-menu-parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow-y: scroll;
+  
+}
+
+/*
+
+.pets-menu-col {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-height: fit-content;
+}
+
+.Pets-Menu-Componet-Parent {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.menu-img-container {
+  width: 40vh;
+    height: 20vh ;
+    margin: 0 auto;
+    overflow: hidden;
+    border-color: rgb(250, 162, 0);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0px 0px 20px 5px rgb(196, 196, 196);
+    margin-bottom: 10%;
+}
+
+.menu-img-container:hover {
+  
+  box-shadow: 0px 0px 80px 5px rgb(196, 196, 196);
+  
+}
+
+.menu-img-overlay {
+  
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+}
+
+.pets-img {
+
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+.Pets-Menu-Componet-Upper {
+  max-height: 50%;
+  width: 100%;
+
+  
+  justify-content: space-around;
+  
+
+}
+
+.pets-img {
+  height: 100%;
+  width: 60%;
+  
+  object-fit: cover;
+
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+
+  box-shadow: 5px 2px 15px 3px rgb(81, 81, 81);
+}
+
+.Pets-Menu-Lower-Parent {
+  width: 100%;
+  min-height: 50%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-content: center;
+}
+
+.Pets-Description-Menu {
+  width: 75%;
+  padding-top: 1%;
+  text-align: left;
+  text-indent: 1.5%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Pets-Menu-Sub-Parent {
+  padding-top: 2%;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Pets-Menu-Sub-Parent-Header {
+  font-size: medium;
+  margin-right: 5%;
+}
+
+.Pets-Menu-Sub-Parent-Txt {
+  margin-top: 10% ;
+}
+
+*/
+
+/* Pet Page */
+
+.petpage-article-parent {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  
+}
+
+.petpage-left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.petpage-img-container {
+  width: 75%;
+  height: 75%;
+  background-color: black;
+  border-radius: 50%;
+
+  object-fit:cover;
+  overflow: hidden;
+
+  border: black;
+
+  border-width: 5px;
+  border-style: solid;
+
+  box-shadow: 7px 7px 25px 10px rgb(81, 81, 81);
+
+}
+
+.petpage-img {
+  width: 100%;
+  height: 100%;
+}
+
+.petpage-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.petpage-section {
+  border: solid black 2px;
+  width: 95%;
+  height: 25%;
+  justify-self: center;
+  background-color: white;
+  box-shadow: 10px 10px 15px 5px rgb(81, 81, 81);
+}
+
+/* Donate */
+.donate-parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.donate-btn {
+  width: 25%;
+  height: 15%;
+  border-radius: 90%;
+
+  font-size: xx-large;
+  
+  color:rgb(251, 255, 0);
+  background-image: url('./assets/tigerprint.jpg');
+}
+
+.donate-pic-parent {
+  height: 50%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.donate-pic-container {
+  background-color: rgb(255, 0, 208);
+  width: 25%;
+  margin: 5%;
+
+  object-fit: cover;
+
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+
+  object-fit:contain;
+
+
+
+}
+
+.donation-modal {
+  height: 50%;
+  width: 80vh;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+
+  margin-bottom: 5%;
+
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+
+  box-shadow: 5px 2px 15px 3px rgb(81, 81, 81);
+  
+}
+
+.modal-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+
+  
+  background-image: url(./assets/jungle.png);
+  object-fit: cover;
+
+}
+
+
+
+.donation-close-btn {
+  display: flex;
+  align-self: flex-end;
+  font-size: 3vh;
+  margin-right: 3%;
+  color: rgb(19, 50, 7);
+}
+
+.donate-modal-form {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modal-header {
+  align-self: center;
+  margin: 1%;
+  border-radius: 40%;
+  height: 18%;
+  align-self: center;
+  margin-bottom: 2.5%;
+  border-radius: 40%;
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.481);
+  color: rgb(245, 151, 20);
+  text-shadow: 2px 2px 4px rgb(138, 0, 0);
+}
+
+.central-donate-modal {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin-bottom: 1%;
+}
+
+.modal-text {
+  margin-right: 10px;
+  width: 100%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.dModal-selector-parent {
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ 
+}
+
+.modal-text {
+  background-color: rgba(0, 0, 0, 0.481);
+  
+  padding-left: 2%;
+  color: rgb(245, 151, 20);
+  text-shadow: 2px 2px 4px rgb(138, 0, 0);
+}
+
+
+
+.lower-donate-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.message {
+  
+  height: 50px;
+  
+}
+
+.donate-submit-btn {
+  height: 20%;
+  width: 30%;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  
+
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 40%;
+  background-color: rgb(19, 50, 7);
+  border-color: rgb(245, 151, 20);
+  color: rgb(245, 151, 20);
+  text-shadow: 2px 2px 4px rgb(138, 0, 0);
+  box-shadow: 5px 2px 15px 3px rgb(81, 81, 81);
+
+  font-weight: 200;
+  font-size: xx-large;
+
+  transition: ease-in-out .5s;
+
+  margin-top: 1%;
+
+}
+
+.donate-submit-btn:hover {
+  height: 20%;
+  width: 30%;
+
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 40%;
+  background-color: rgb(245, 151, 20);
+  border-color:  transparent;
+  color: rgb(57, 112, 57);
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  box-shadow: 5px 5px 25px 10px rgb(0, 0, 0);
+
+  font-weight: 800;
+  font-size: xx-large;
+
+  transform: scale(.75);
+
+}
+
+/* User Profile */
+
+.profile-parent {
+  height: 100%;
+  width: 80%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-upper {
+  height: 30%;
+  width: 100%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 3px gray solid;
+}
+
+.profile {
+  height: 25%;
+  min-width: fit-content;
+  width: 45%;
+
+  background-color: white;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.profile-email {
+  color: rgba(128, 128, 128, 0.885);
+}
+
+.profile-lower {
+  height: 70%;
+  width: 100%;
+  
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  overflow-y: scroll;
+  flex-shrink: 0;
+  
+  
+  
+}
+
+.history-parent {
+  height: 40px;
+  width: 60%;
+
+  border: black 2px solid;
+  background-color: white;
+
+  justify-self: center;
+
+  margin-bottom: 1%;
+  flex-shrink: 0;
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: .5%;
+  
+}
+
+
+
+
+
+/* Footer */
+
+.main-footer-parent {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content-box {
+  width:90%;
+  height:100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: black;
+  opacity: .65;
+}
+
+.icon {
+  font-size: xx-large;
+ 
+}
+
+.iconcolor {
+  color:rgb(250, 162, 0);
+}
+
+.iconcolor:hover {
+  color:rgb(255, 255, 255);
+}
+
+.invisa-footer {
+  height: 6%;
+  width: 100%;
+  
+}
+
+

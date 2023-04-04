@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Fluffy",
+      "breed": "Savannah",
+      "age": 2,
+      "gender": "Female",
+      "alt": "Loretta after getting into some spider webs",
+      "headline": "What a rascal!",      
+      "summary": "Fluffy is a beautiful Savannah cat with golden fur. She loves to play with toys and enjoys lounging in sunny spots."
+    },
+    {
+      "name": "Duke",
+      "breed": "Golden Retriever",
+      "age": 3,
+      "gender": "Male",
+      "alt": "Duke sitting off in the distance",
+      "headline": "So well trained!",      
+      "summary": "Duke is a friendly and energetic Golden Retriever. He loves to play fetch and go for long walks. He gets along well with other dogs and people."
+    },
+    {
+      "name": "Charlie",
+      "breed": "Labrador Retriever",
+      "age": 1,
+      "gender": "Male",
+      "alt": "Charlie smiling being pet",
+      "headline": "Voted best smile",
+      "summary": "Charlie is a sweet and playful Labrador Retriever. He loves to run and play and is always up for a game of fetch. He is great with kids and other dogs."
+    },
+    {
+      "name": "Jasper",
+      "breed": "Berkshire Pig",
+      "age": 5,
+      "gender": "Male",
+      "alt": "Jasper on his morning walk",
+      "headline": "The clean freak",      
+      "summary": "Jasper is a beautiful Berkshire Pig. He is very intelligent and loves to talk. He enjoys playing with toys and loves to perch on his owner's shoulder."
+    },
+    {
+      "name": "Louise",
+      "breed": "Orange Tabby",
+      "age": 2,
+      "gender": "Female",
+      "alt": "Louise judging silently",
+      "headline": "Extra sassy girl",   
+      "summary": "Louise is a beautiful Orange tabby cat. She is very loyal and protective of her family. She enjoys going for walks and playing with her favorite ball."
+    },
+    {
+      "name": "Bella",
+      "breed": "Tuxedo cat",
+      "age": 4,
+      "gender": "Female",
+      "alt": "Bella sitting patiently",
+      "headline": "The extra dapper gal",      
+      "summary": "Bella is a beautiful Tuxedo cat with bright blue eyes. She is very affectionate and loves to cuddle. She enjoys chasing toys and playing hide and seek."
+    },
+    {
+      "name": "Tucker",
+      "breed": "Grey Tabby",
+      "age": 1,
+      "gender": "Male",
+      "alt": "Tucker playing hide and seek",
+      "headline": "Will keep you on your toes!",    
+      "summary": "Tucker is a playful and energetic Grey Tabby. He loves to run and play and is always up for a game of tug-of-war. He is great with kids and loves to give kisses."
+    },
+    {
+      "name": "Wishbone",
+      "breed": "Beagle",
+      "age": 3,
+      "gender": "Male",
+      "alt": "Wishbone listening to a story",
+      "headline": "Always ready for adventure!",    
+      "summary": "Wishbone is a beautiful Beagle with a gentle and loving personality. He enjoys going for walks and snuggling with his owners. He is great with kids and other dogs."
+    }
+  ]
+  

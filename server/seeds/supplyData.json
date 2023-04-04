@@ -1,0 +1,82 @@
+[
+  {
+    "type": "Dog Food",
+    "cost": 25.99
+  },
+  {
+    "type": "Cat Food",
+    "cost": 19.99
+  },
+  {
+    "type": "Dog Toy",
+    "cost": 10.99
+  },
+  {
+    "type": "Cat Toy",
+    "cost": 11.99
+  },
+  {
+    "type": "Dog Collar",
+    "cost": 15.99
+  },
+  {
+    "type": "Cat Collar",
+    "cost": 12.99
+  },
+  {
+    "type": "Dog Treats",
+    "cost": 10.99
+  },
+  {
+    "type": "Cat Litter",
+    "cost": 13.99
+  },
+  {
+    "type": "Dog Shampoo",
+    "cost": 10.99
+  },
+  {
+    "type": "Cat Brush",
+    "cost": 10.99
+  },
+  {
+    "type": "Dog Leash",
+    "cost": 17.99
+  },
+  {
+    "type": "Cat Carrier",
+    "cost": 39.99
+  },
+  {
+    "type": "Dog Bed",
+    "cost": 29.99
+  },
+  {
+    "type": "Cat Bed",
+    "cost": 19.99
+  },
+  {
+    "type": "Dog Bowl",
+    "cost": 10.99
+  },
+  {
+    "type": "Cat Bowl",
+    "cost": 10.99
+  },
+  {
+    "type": "Dog Harness",
+    "cost": 21.99
+  },
+  {
+    "type": "Cat Collapsible Tunnel",
+    "cost": 11.99
+  },
+  {
+    "type": "Dog Nail Clippers",
+    "cost": 10.99
+  },
+  {
+    "type": "Cat Scratching Post",
+    "cost": 24.99
+  }
+]

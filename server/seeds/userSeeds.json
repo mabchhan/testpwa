@@ -1,0 +1,37 @@
+[
+  {
+    "username": "mabchhan",
+    "firstName": "Mab",
+    "lastName": "Chhan",
+    "email": "mab@gmail.com",
+    "password": "123456"
+  },
+  {
+    "username": "kayla",
+    "firstName": "Kayla A.",
+    "lastName": "Brown",
+    "email": "kayla@gmail.com",
+    "password": "123456"
+  },
+  {
+    "username": "caleb",
+    "firstName": "Caleb",
+    "lastName": "Lockwood",
+    "email": "caleb@gmail.com",
+    "password": "123456"
+  },
+  {
+    "username": "sang",
+    "firstName": "Sang",
+    "lastName": "Nguyen",
+    "email": "sang@gmail.com",
+    "password": "123456"
+  },
+  {
+    "username": "maleaque",
+    "firstName": "Maleaque",
+    "lastName": "Barzangy",
+    "email": "maleaque@gmail.com",
+    "password": "123456"
+  }
+]
